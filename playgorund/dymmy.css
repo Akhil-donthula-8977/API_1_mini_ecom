@@ -1,0 +1,51 @@
+.card{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    width:100px;
+    background-color:turquoise;
+    height: 100px;
+    position: absolute;
+   
+    
+    
+}
+.leader{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}
+.card[id="4"]{
+left: -180px;
+border: 2px ;
+border-radius: 50%;
+bottom: 50px;
+}
+body{
+    overflow-x: hidden;
+}
+/* for postion the one assumes it is not is not there
+ ->use absolute whne we dont want a normal flow of element
+ default body,
+ if parent has position property then it starts acting
+ with respective to parent
+*/
+
+
+
+
+ /* FIXED:  */
+/* "fixed" postion is used for nav bar
+->it is relative to html element
+->top bottom are accessable
+*/
+
+
+
+/*   sticky */
+/*
+  -> top property has to be mentioned
+  ->it will be fixed with that top property
+
+*/
